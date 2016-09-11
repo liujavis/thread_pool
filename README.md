@@ -3,11 +3,10 @@ thread_pool tp(10);
 
 ### 1.Functions:
 
-int foo(int id, int x, int y){
+    int foo(int id, int x, int y){
 	cout << "thread id: " << id << endl;
-    
-    return x+y;
-}
+        return x+y;
+    }
 
 tp.push(foo);
 
